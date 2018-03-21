@@ -1,7 +1,7 @@
 # micro-service [![Build Status](https://travis-ci.org/PyColors/micro-service.svg?branch=master)](https://travis-ci.org/PyColors/micro-service)
 
 Micro service is a screen show users from [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
-
+#### [Demo](http://i-contract-pycolors.c9users.io:8080/)
 ### Tech
 
 Micro service uses a number of open source projects to work properly:
