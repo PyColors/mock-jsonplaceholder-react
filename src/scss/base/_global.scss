@@ -1,0 +1,86 @@
+/*
+This file is used to contain all global styles.
+*/
+
+body {
+    font-family: 'vodafonelt';
+    font-size: 16px;
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; // 
+    display: block;
+    background-image: url('https://d33wubrfki0l68.cloudfront.net/5375547289aa787c01216c6393ffa69a829deaa8/6acfa/lib-header-img-set3-b-ffca822.jpg');
+    height: 800px;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.mui-container,
+.mui-appbar {
+    position: relative;
+    z-index: 1;
+}
+
+.mui--appbar-height {
+    height: 3.5rem;
+}
+
+.mui-container,
+.change-color {
+    animation: animationFrames ease 1s;
+    animation-iteration-count: 1;
+    transform-origin: 50% 50%;
+    animation-fill-mode: forwards;
+    -webkit-animation: animationFrames ease 1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.mui-appbar {
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 2px 0 rgba(0, 0, 0, .12);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 2px 0 rgba(0, 0, 0, .12);
+}
+
+.mui-panel {
+    padding: 20px 15px 85px;
+}
+
+a:hover {
+    color: $secondary-color;
+}
+
+/* ==========================================================================
+ Animation
+ ========================================================================== */
+
+/* Section Main */
+
+@keyframes animationFrames {
+    0% {
+        opacity: 0;
+        transform: translate(0px, 0px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+}
+
+@-webkit-keyframes animationFrames {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate(0px, 0px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translate(0px, 0px);
+    }
+}
