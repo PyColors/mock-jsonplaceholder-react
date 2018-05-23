@@ -53,7 +53,7 @@ class GetDataPresentation extends Component {
         </Col>
         <Col md="3">
           <Paragraph paragraph={phone} />
-          <a href="https://www.google.co.uk" target="_blank">
+          <a href={`http://${website}`} target="_blank">
             {website}
           </a>
         </Col>
