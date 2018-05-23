@@ -20,7 +20,7 @@ class App extends Component {
             <tbody>
               <tr>
                 <td className="mui--appbar-height">
-                  <a href="https://www.vodafone.co.uk" target="_blank">
+                  <a href="https://www.pycolors.com" target="_blank">
                     <img
                       className="app-bar__brand-logo"
                       src="images/logo-light-py-colors.png"
@@ -29,7 +29,7 @@ class App extends Component {
                   </a>
                 </td>
                 <td className="mui--appbar-height" style={s2}>
-                 {<img className="app-bar__img-build-travis" src="https://travis-ci.org/PyColors/micro-service.svg?branch=master" alt="Build Status" />} | <a className="app-bar__link" href="https://github.com/PyColors/micro-service" target="_blank">Project on GitHub</a>
+                 {<img className="app-bar__img-build-travis" src="https://travis-ci.org/PyColors/mock-jsonplaceholder-react.svg?branch=master" alt="Build Status" />} | <a className="app-bar__link" href="https://github.com/PyColors/mock-jsonplaceholder-react" target="_blank">Project on GitHub</a>
                 </td>
               </tr>
             </tbody>
