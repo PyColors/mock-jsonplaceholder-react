@@ -22,7 +22,7 @@ Dillinger requires [Node.js](https://nodejs.org/) v6+ to run.
 Install the dependencies and devDependencies.
 
 ```sh
-$ cd Choose your iPhone
+$ cd in the project
 $ npm install
 ```
 
