@@ -65,7 +65,7 @@
     "susy": "^3.0.3",
     "url-loader": "^0.5.7",
     "webpack": "^1.15.0",
-    "webpack-dev-server": "^1.15.1",
+    "webpack-dev-server": ">=3.1.11",
     "webpack-hot-middleware": "^2.12.2"
   }
 }
