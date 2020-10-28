@@ -1,4 +1,4 @@
-# mock-jsonplaceholder-react [![Build Status](https://travis-ci.org/PyColors/micro-service.svg?branch=master)](https://travis-ci.org/PyColors/mock-jsonplaceholder-react)
+# mock-jsonplaceholder-react [![Build Status](https://travis-ci.org/PyColors/mock-jsonplaceholder-react.svg?branch=master)](https://travis-ci.org/PyColors/mock-jsonplaceholder-react)
 
 A screen showing users from [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
 #### [Demo](http://i-contract-pycolors.c9users.io:8080/)
